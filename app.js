@@ -4,16 +4,48 @@ console.log(
 );
 
 // Exercise 1
-console.log("EXERCISE 1:\n==========\n");
-
-// YOUR CODE HERE
+let a = 20;
+let b = 4;
+let add = a + b;
+let minus = a - b; 
+let multiply = a * b;
+let dividing = a / b;
+console.log(add);
+console.log(minus);
+console.log(multiply);
+console.log(dividing);
 
 // Exercise 2
-console.log("EXERCISE 2:\n==========\n");
+a = 11;
+let str = "11";
+let str2 = "eleven";
+let isPresent = true;
+let firstName = "Jackie";
+let lastName = "Chan";
 
-// YOUR CODE HERE
+console.log(a + str);
+console.log(a + str2);
+console.log(a + isPresent);
+console.log(a + firstName);
+console.log(a + lastName);
 
 // Exercise 3
-console.log("EXERCISE 3:\n==========\n");
+a = 5;
+str = "5";
+str2 = "five";
+isPresent = false;
+firstName = "Robin";
+lastName = "Williams";
+
+console.log(a == str);
+console.log(a === str);
+console.log(!isPresent);
+console.log("eleven" == str2 && a >= str);
+console.log(!isPresent || isPresent);
+
+console.log(0 == false);
+console.log(0 === false);
+console.log(0 != false);
+console.log(0 !== false);
 
 // YOUR CODE HERE
